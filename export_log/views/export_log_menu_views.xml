@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+            name="Export Log"
+            id="menu_main_export_log"
+            sequence="100"
+            web_icon="witz_export_log,static/description/effort.png"/>
+
+    <menuitem
+            name="Export Log"
+            id="menu_main_export_log_model"
+            parent="base.menu_ir_action_report"
+            action="action_witz_export_log"
+    />
+
+
+</odoo>

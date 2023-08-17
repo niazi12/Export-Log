@@ -1,0 +1,44 @@
+<odoo>
+    <data>
+        <record id="witz_export_log_wizard_form" model="ir.ui.view">
+            <field name="name">witz.export.log.wizard.form</field>
+            <field name="model">witz.export.log.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+
+            <field name="arch" type="xml">
+                <form>
+                    <group string="Exporting Log">
+                        <group>
+                            <field name="model_id" options='{"no_open": 1, "no_create": 1, "no_create_edit": 1}'/>
+                        </group>
+                    </group>
+                    <footer>
+                        <div class="row">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button name="witz_export_action" type="object" string="Export"
+                                            class="btn btn-primary" style="width: 250px; margin-right : 10px"/>
+                                    <button string="Cancel" special="cancel"
+                                            class="btn btn-default" style="width: 250px; margin-right : 10px"/>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </form>
+
+            </field>
+        </record>
+
+
+        <!--Action View-->
+        <record id="action_witz_export_log" model="ir.actions.act_window">
+            <field name="name">Model Select</field>
+            <field name="res_model">witz.export.log.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>
