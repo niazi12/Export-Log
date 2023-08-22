@@ -2,8 +2,8 @@
 {
     'name': 'Export Log ',
     'summary': 'Log Export',
-    'description': """Exporting log values from model""",
-    'category': 'Log',
+    'description': """Exporting log values from model. Working only in odoo 11""",
+    'category': 'Tools',
     'author': 'Niazi Mahrab',
     'maintainer': 'Niazi Mahrab',
     'version': '11.0.0.1',
