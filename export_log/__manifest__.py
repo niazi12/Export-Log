@@ -10,6 +10,8 @@
     'website': 'https://github.com/niazi12/Export-Log/tree/11.0/export_log',
     'license': 'LGPL-3',
     'depends': ['base'],
+    'images': ['static/description/banner.gif'],
+
     'data': [
         'security/ir.model.access.csv',
         'wizards/export_log_wizard_view.xml',
@@ -17,9 +19,6 @@
         'views/excel_repot_out_views.xml',
 
     ],
-    'demo': [],
-    'qweb': [],
-    'images': [],
 
     'installable': True,
     'application': True,
