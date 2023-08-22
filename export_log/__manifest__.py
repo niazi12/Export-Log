@@ -7,7 +7,7 @@
     'author': 'Niazi Mahrab',
     'maintainer': 'Niazi Mahrab',
     'version': '11.0.0.1',
-    'website': 'https://github.com/niazi12',
+    'website': 'https://github.com/niazi12/Export-Log/tree/11.0/export_log',
     'license': 'LGPL-3',
     'depends': ['base'],
     'data': [
